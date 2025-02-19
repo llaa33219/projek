@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "엔트리-projek",
+    "version": "1.0.0",
+    "description": "엔트리 메인 화면의 추천 작품들을 다양하게 보여줍니다",
+    "icons": {
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://playentry.org/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "host_permissions": [
+        "https://playentry.org/*"
+    ]
+}

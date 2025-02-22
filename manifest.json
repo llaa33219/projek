@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "엔트리-projek",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "엔트리 메인 화면의 추천 작품들을 다양하게 보여줍니다",
     "icons": {
         "16": "16.png",
